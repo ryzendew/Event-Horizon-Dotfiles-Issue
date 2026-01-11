@@ -23,14 +23,14 @@ This started as [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialS
 
 ## Quick Start
 
-1. Check out the [Installation Guide](docs/installation.md) for your distro
+1. Check out the [Installation Guide](Docs/installation.md) for your distro
 2. Install the dependencies
 3. Copy the config files over
 4. Tweak things to your liking
 
 ## Documentation
 
-### [Installation Guide](docs/installation.md)
+### [Installation Guide](Docs/installation.md)
 
 Step-by-step installation for:
 
@@ -40,7 +40,7 @@ Step-by-step installation for:
 
 Covers all the packages you'll need, how to install them, fonts, and what to do after installation.
 
-### [Features](docs/features.md)
+### [Features](Docs/features.md)
 
 What's included in this setup:
 
@@ -50,7 +50,7 @@ What's included in this setup:
 - Customization options
 - Application support
 
-### [Hypr Configuration](docs/hypr-configuration.md)
+### [Hypr Configuration](Docs/hypr-configuration.md)
 
 How the Hyprland config is organized:
 
