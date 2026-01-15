@@ -30,8 +30,6 @@ This started as [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialS
 Run the universal installer - it auto-detects your distribution and installs everything:
 
 ```bash
-git clone https://github.com/ryzendew/DarkMatter.git
-cd DarkMatter
 ./install.sh
 ```
 
