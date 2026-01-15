@@ -6,6 +6,8 @@ My personal desktop environment setup for Linux, built on Hyprland and Quickshel
 
 This started as [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) dotfiles but has grown into my own full desktop environment setup. I'm using Hyprland as the window manager (it's a tiling Wayland compositor) and Quickshell for the shell/widget system. Together they make for a pretty solid desktop experience.
 
+**Includes:** All necessary fonts (SF Pro, Inter, Fira Code, Material Symbols, Noto) are bundled with the configuration files.
+
 ## Screenshots
 
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/45817183-4b9b-481f-a928-a00a2280bc65" />
@@ -23,24 +25,53 @@ This started as [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialS
 
 ## Quick Start
 
-1. Check out the [Installation Guide](Docs/installation.md) for your distro
-2. Install the dependencies
-3. Copy the config files over
-4. Tweak things to your liking
+### Automatic Installation (Recommended)
+
+Run the universal installer - it auto-detects your distribution and installs everything:
+
+```bash
+git clone https://github.com/ryzendew/DarkMatter.git
+cd DarkMatter
+./install.sh
+```
+
+The installer will:
+- ✅ **Ask for confirmation** before starting installation
+- ✅ Auto-detect your Linux distribution (Arch, Fedora, Ubuntu, Debian, PikaOS)
+- ✅ Check for already installed packages and skip them
+- ✅ Handle sudo permissions automatically
+- ✅ Install all required dependencies
+- ✅ **Automatically copy config files** to ~/.config/hypr/ and ~/.config/quickshell/
+- ✅ **Backup existing configs** to .bak folders (only on first install)
+- ✅ Provide fallbacks if matugen or dgop compilation fails
+- ✅ Continue installation even if some components fail
+
+### Manual Installation
+
+If you prefer manual installation, use the [Installation Guide](docs/installation.md) and pick your distro page.
+
+## Next Steps
+
+1. Your DarkMatter setup is ready! Config files are automatically installed.
+2. Check out the [Features](docs/features.md) documentation
+3. Read the [Hypr Configuration](hypr-configuration.md) guide to customize things
+4. Your previous configs are backed up as `.bak` folders if you need to restore them
 
 ## Documentation
 
-### [Installation Guide](Docs/installation.md)
+### Installation
 
-Step-by-step installation for:
+**Universal Installer (Recommended):** Run `./install.sh` - auto-detects your distro and handles everything!
 
-- Arch Linux and derivatives (CachyOS, EndeavourOS, XeroLinux)
-- Fedora and derivatives (Nobara)
-- PikaOS
+**Manual Installation:** See the [Installation Guide](docs/installation.md) and use the distro-specific pages:
 
-Covers all the packages you'll need, how to install them, fonts, and what to do after installation.
+- [Arch Linux and derivatives (CachyOS, EndeavourOS, XeroLinux)](docs/installation-arch.md)
+- [Fedora and derivatives (Nobara)](docs/installation-fedora.md)
+- [PikaOS](docs/installation-pikaos.md)
 
-### [Features](Docs/features.md)
+Covers all packages, fonts, and post-installation setup.
+
+### [Features](docs/features.md)
 
 What's included in this setup:
 
@@ -50,7 +81,7 @@ What's included in this setup:
 - Customization options
 - Application support
 
-### [Hypr Configuration](Docs/hypr-configuration.md)
+### [Hypr Configuration](docs/hypr-configuration.md)
 
 How the Hyprland config is organized:
 
