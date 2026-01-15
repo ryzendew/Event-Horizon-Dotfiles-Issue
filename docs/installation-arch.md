@@ -13,7 +13,7 @@ sudo pacman -Syu
 ## Step 2: Install Official Repository Packages
 
 ```bash
-sudo pacman -S brightnessctl cliphist easyeffects firefox fuzzel gedit grim mission-center nautilus nwg-look pavucontrol polkit polkit-gnome mate-polkit ptyxis qt6ct slurp swappy tesseract wl-clipboard xdg-desktop-portal-hyprland yad qt6-5compat xorg-xhost
+sudo pacman -S brightnessctl cliphist easyeffects firefox fuzzel gedit grim mission-center nautilus nwg-look pavucontrol polkit polkit-gnome mate-polkit ptyxis qt6ct slurp swappy tesseract wl-clipboard xdg-desktop-portal-hyprland yad qt6-5compat xorg-xhost quickshell
 ```
 
 ## Step 3: Install AUR Helper (if needed)
@@ -29,7 +29,7 @@ cd yay && makepkg -si && cd .. && rm -rf yay
 ## Step 4: Install AUR Packages
 
 ```bash
-yay -S anyrun dgop hyprpicker-git matugen-git python-pynvml quickshell-git wlogout hyprland-git
+yay -S anyrun dgop matugen-git python-pynvml wlogout
 ```
 
 Or build it yourself if you prefer:
