@@ -12,8 +12,7 @@ This started as [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialS
 
 ### Automatic Installation (Recommended)
 
-1. **Go to the Releases page:**  
-   [Release](https://github.com/ryzendew/Event-Horizon-Dotfiles-Issue/releases)
+1. Go to the Latest [Release](https://github.com/ryzendew/Event-Horizon-Dotfiles-Issue/releases)
 
 2. **Download the newest `.zip` file.**
 
