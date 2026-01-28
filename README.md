@@ -8,30 +8,26 @@ This started as [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialS
 
 **Includes:** All necessary fonts (SF Pro, Inter, Fira Code, Material Symbols, Noto) are bundled with the configuration files.
 
-## Screenshots
-
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/45817183-4b9b-481f-a928-a00a2280bc65" />
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/89cbcbd3-491e-4b7d-bd03-92ca91adf62e" />
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/6caf4ba3-3611-4c21-8d7a-4e7300bac340" />
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/a86a55d7-0f40-4eb4-b504-e78707bd5bf8" />
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/22c72af2-aa8a-442e-9f0e-4580cd44063c" />
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/4e0439f9-b45f-4502-9743-e13b0c798c4e" />
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/954f8b9c-9d2a-41ed-aeb2-e28647e7b098" />
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/a56e7b63-4367-42ee-a6d3-5e07bf124573" />
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/95786a09-a524-486a-abc0-a51dacd21ad1" />
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/b01eb71c-d5e8-4471-9f84-d471f0661912" />
-
-
-
 ## Quick Start
 
 ### Automatic Installation (Recommended)
 
-Run the universal installer - it auto-detects your distribution and installs everything:
+1. **Go to the Releases page:**  
+   [Release](https://github.com/ryzendew/Event-Horizon-Dotfiles-Issue/releases)
 
-```bash
-./install.sh
-```
+2. **Download the newest `.zip` file.**
+
+3. **Extract** the `.zip` you just downloaded.
+
+4. Open the new folder it created.
+
+5. **Right‑click** inside the empty space of that folder and choose **“Open in Terminal.”**
+
+6. Run the installer:
+
+   ```bash
+   ./install.sh
+
 
 The installer will:
 - ✅ **Ask for confirmation** before starting installation
@@ -99,13 +95,18 @@ I've tested this on:
 
 Other distros might work, but I haven't tested them and can't help if something breaks.
 
-## What's Inside
+## Screenshots
 
-- **Hyprland** - The window manager (tiling Wayland compositor)
-- **Quickshell** - Shell system with widgets and launchers
-- **Material You** theming using matugen
-- System integration for audio, network, displays, etc.
-- Lots of customization options
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/45817183-4b9b-481f-a928-a00a2280bc65" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/89cbcbd3-491e-4b7d-bd03-92ca91adf62e" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/6caf4ba3-3611-4c21-8d7a-4e7300bac340" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/a86a55d7-0f40-4eb4-b504-e78707bd5bf8" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/22c72af2-aa8a-442e-9f0e-4580cd44063c" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/4e0439f9-b45f-4502-9743-e13b0c798c4e" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/954f8b9c-9d2a-41ed-aeb2-e28647e7b098" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/a56e7b63-4367-42ee-a6d3-5e07bf124573" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/95786a09-a524-486a-abc0-a51dacd21ad1" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/b01eb71c-d5e8-4471-9f84-d471f0661912" />
 
 ## License
 
