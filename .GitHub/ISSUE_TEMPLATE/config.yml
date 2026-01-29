@@ -1,0 +1,9 @@
+---
+blank_issues_enabled: false
+contact_links:
+  - name: Discussions
+    url: https://github.com/Event-Horizon-Dotfiles/Event-Horizon-Dotfiles/discussions
+    about: Ask questions and discuss with the community
+  - name: Security
+    url: https://github.com/Event-Horizon-Dotfiles/Event-Horizon-Dotfiles/security/policy
+    about: Report security vulnerabilities privately
