@@ -8,6 +8,10 @@ This started as [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialS
 
 **Includes:** All necessary fonts (SF Pro, Inter, Fira Code, Material Symbols, Noto) are bundled with the configuration files.
 
+## Reporting Issues
+
+Found a bug or have an issue? Please check the [Reporting Guide](docs/reporting-issues.md) for how to submit a good bug report.
+
 ## Quick Start
 
 ### Automatic Installation (Recommended)

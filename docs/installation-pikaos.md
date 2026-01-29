@@ -13,7 +13,7 @@ sudo apt update && sudo apt upgrade -y
 Install all required packages in a single command:
 
 ```bash
-sudo apt install -y --no-install-recommends hyprland swww xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gnome gnome-keyring brightnessctl cliphist easyeffects firefox fuzzel gedit gnome-system-monitor gnome-text-editor grim nautilus nwg-look pavucontrol mate-polkit-bin ptyxis qt6ct slurp swappy tesseract-ocr wl-clipboard wlogout yad rustc cargo gcc g++ pkg-config libssl-dev libx11-dev libxcursor-dev libxrandr-dev libxi-dev libgl1-mesa-dev libfontconfig-dev libfreetype-dev libexpat1-dev curl unzip fontconfig libcairo2-dev libgtk-4-dev libgtk-layer-shell-dev qtbase5-dev qt6-base-dev python3-pyqt6 python3 python3-dev libcurl4-openssl-dev fuse libfuse2t64 btop lm-sensors golang-go make python3-pip quickshell qml6-module-qtquick-controls qml6-module-qtcore qml6-module-qtquick-effects qml6-module-qt5compat-graphicaleffects qml6-module-qt-labs-folderlistmodel qml6-module-qt-labs-platform matugen
+sudo apt install -y --no-install-recommends hyprland swww xdg-desktop-portal-hyprland gnome-keyring brightnessctl cliphist fuzzel gedit gnome-system-monitor gnome-text-editor grim nautilus nwg-look pavucontrol mate-polkit-bin ptyxis qt6ct slurp swappy tesseract-ocr wl-clipboard wlogout yad qtbase5-dev qt6-base-dev python3-pyqt6 python3-pip quickshell qml6-module-qtquick-controls qml6-module-qtcore qml6-module-qtquick-effects qml6-module-qt5compat-graphicaleffects qml6-module-qt-labs-folderlistmodel qml6-module-qt-labs-platform matugen jq dgop
 ```
 
 ## Step 3: Python Dependencies

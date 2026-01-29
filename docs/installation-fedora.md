@@ -29,36 +29,21 @@ Update your package cache:
 ```bash
 sudo dnf makecache
 ```
-
-## Step 3: Install Packages from COPR Repositories
-
-From the Hyprland COPR:
-
-```bash
-sudo dnf install -y hyprland-git hyprpicker swww xdg-desktop-portal-hyprland
-```
-
-From the Quickshell COPR:
-
-```bash
-sudo dnf install -y quickshell-git
-```
-
-## Step 4: Install Everything Else
+## Step 3: Install Everything Else
 
 Here's the big package install command:
 
 ```bash
-sudo dnf install -y hyprland-git hyprpicker swww xdg-desktop-portal-hyprland xdg-desktop-portal-wlr xdg-desktop-portal-gnome gnome-keyring brightnessctl cliphist easyeffects firefox fuzzel gedit gnome-disks gnome-system-monitor gnome-text-editor grim nautilus nwg-look pavucontrol polkit mate-polkit ptyxis qt6ct slurp swappy tesseract wl-clipboard wlogout yad quickshell-git rust cargo gcc gcc-c++ pkg-config openssl-devel libX11-devel libXcursor-devel libXrandr-devel libXi-devel mesa-libGL-devel fontconfig-devel freetype-devel expat-devel cairo-gobject cairo-gobject-devel rust-gdk4-sys+default-devel gtk4-layer-shell-devel qt5-qtgraphicaleffects qt6-qt5compat python3-pyqt6 python3.11 python3.11-libs libxcrypt-compat libcurl libcurl-devel apr fuse-libs fuse btop lm_sensors gedit nwg-look
+sudo dnf install -y hyprland hyprpicker swww xdg-desktop-portal-hyprland gnome-keyring brightnessctl cliphist fuzzel gedit gnome-disks gnome-system-monitor gnome-text-editor grim nautilus nwg-look pavucontrol polkit mate-polkit ptyxis qt6ct slurp swappy tesseract wl-clipboard wlogout yad quickshell qt5-qtgraphicaleffects qt6-qt5compat python3-pyqt6 btop gedit nwg-look quickshell jq
 ```
 
-## Step 5: Python Dependencies
+## Step 4: Python Dependencies
 
 ```bash
 pip install pynvml
 ```
 
-## Step 6: dgop
+## Step 5: dgop
 
 Build it from source:
 
@@ -75,7 +60,7 @@ sudo make install
 cd .. && rm -rf dgop
 ```
 
-## Step 7: matugen
+## Step 6: matugen
 
 Install via Cargo:
 
@@ -87,7 +72,7 @@ sudo dnf install -y rust cargo
 cargo install matugen
 ```
 
-## Step 8: Install Fonts
+## Step 7: Install Fonts
 
 Fonts are included with the config, but install them system-wide if you want.
 
