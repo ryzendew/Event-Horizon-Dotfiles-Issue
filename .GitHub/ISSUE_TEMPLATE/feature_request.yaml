@@ -1,0 +1,54 @@
+# SPDX-FileCopyrightText: Copyright 2024 Event Horizon Dotfiles
+# SPDX-License-Identifier: MIT
+name: Feature Request
+description: Request a new feature or improvement for the dotfiles
+title: "[FEATURE]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Important: Read First
+
+        **Please search for existing feature requests before creating a new one.**
+
+        When requesting features, please provide a clear use case and rationale.
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched for a similar feature request and did not find one.
+          required: true
+  - type: input
+    id: title
+    attributes:
+      label: Feature Title
+      description: A short, descriptive name for the feature
+      placeholder: "e.g., Add waybar module for system monitoring"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: Describe the feature and how it would work
+      placeholder: |
+        **What:**
+        [Describe the feature]
+
+        **Why:**
+        [Why would this be useful]
+
+        **How:**
+        [How should it work/be implemented]
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or workarounds you've considered
+      placeholder: |
+        [Describe alternatives]
+    validations:
+      required: false
