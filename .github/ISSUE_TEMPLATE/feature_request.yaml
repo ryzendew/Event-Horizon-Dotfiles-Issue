@@ -20,7 +20,7 @@ body:
         - label: I have searched for a similar feature request and did not find one.
           required: true
   - type: input
-    id: title
+    id: feature-title
     attributes:
       label: Feature Title
       description: A short, descriptive name for the feature

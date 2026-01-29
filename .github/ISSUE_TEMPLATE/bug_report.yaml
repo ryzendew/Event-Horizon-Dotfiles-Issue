@@ -24,7 +24,7 @@ body:
         - label: I have read the [Reporting Guide](docs/reporting-issues.md) before submitting this issue.
           required: true
   - type: input
-    id: title
+    id: bug-title
     attributes:
       label: Title / Short Summary
       description: A clear, one-line description of your issue
