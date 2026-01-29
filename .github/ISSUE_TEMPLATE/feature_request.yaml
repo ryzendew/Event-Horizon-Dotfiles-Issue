@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: Copyright 2024 Event Horizon Dotfiles
+# SPDX-FileCopyrightText: Copyright 2026 Event Horizon Dotfiles
 # SPDX-License-Identifier: MIT
 name: Feature Request
 description: Request a new feature or improvement for the dotfiles
@@ -19,36 +19,17 @@ body:
       options:
         - label: I have searched for a similar feature request and did not find one.
           required: true
-  - type: input
-    id: feature-title
-    attributes:
-      label: Feature Title
-      description: A short, descriptive name for the feature
-      placeholder: "e.g., Add quickshell module for system monitoring"
-    validations:
-      required: true
   - type: textarea
-    id: description
+    id: desc
     attributes:
-      label: Feature Description
-      description: Describe the feature and how it would work
-      placeholder: |
-        **What:**
-        [Describe the feature]
-
-        **Why:**
-        [Why would this be useful]
-
-        **How:**
-        [How should it work/be implemented]
+      label: Describe the Feature
+      description: "What feature do you want and why"
     validations:
       required: true
   - type: textarea
     id: alternatives
     attributes:
       label: Alternatives Considered
-      description: Any alternative solutions or workarounds you've considered
-      placeholder: |
-        [Describe alternatives]
+      description: "Any alternative solutions or workarounds you've considered"
     validations:
       required: false
