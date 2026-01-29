@@ -24,7 +24,7 @@ body:
     attributes:
       label: Feature Title
       description: A short, descriptive name for the feature
-      placeholder: "e.g., Add waybar module for system monitoring"
+      placeholder: "e.g., Add quickshell module for system monitoring"
     validations:
       required: true
   - type: textarea
