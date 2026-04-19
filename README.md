@@ -1,5 +1,6 @@
-# Event Horizon Dotfiles
 
+# Event Horizon Dotfiles
+<img width="512" height="412" alt="Event-Horizon-logo" src="https://github.com/user-attachments/assets/c1e8e3cf-fda4-4059-9f9a-a0e7c692edf2" />
 My personal desktop environment setup for Linux, built on Hyprland and Quickshell. It's basically a complete desktop experience that I've been tweaking and refining over time.
 
 ## What is this?
